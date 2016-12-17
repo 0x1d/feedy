@@ -1,0 +1,25 @@
+{
+  "name": "feedy",
+  "version": "1.0.0",
+  "description": "rss torrent feed downloader with rtorrent over xmlrpc",
+  "main": "app.js",
+  "dependencies": {
+    "feedparser": "^1.1.5",
+    "node-persist": "^2.0.7",
+    "node-rtorrent": "^1.1.0",
+    "node-schedule": "^1.2.0",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rss",
+    "feed",
+    "torrent",
+    "rtorrent"
+  ],
+  "author": "Patrick Balsiger",
+  "license": "MIT"
+}
